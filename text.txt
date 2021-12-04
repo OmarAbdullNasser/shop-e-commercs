@@ -1,0 +1,57 @@
+this.$store.commit('addProdect',[prodect.id,this.qut])
+
+ params:{id: prodect.id, qut:this.qut}}
+
+ computed:{
+    //  cart:{
+    //      get(prodects){
+          
+    //      },
+        //  numberofSaledProdects(){
+        //      let num=0;
+        //      for(let i=0; i<this.saledProdect.length;i++){
+        //          num += this.saledProdect[i].Q;
+        //      }
+        //      return num
+
+        //  }
+     }
+
+
+
+      methods:{
+        
+    },
+    mounted(){
+        this.cart =this.$store.state.cart
+    },
+    beforeCreate() {
+        this.$store.commit('fireStroge')
+    },
+
+
+
+
+
+
+
+              getprodect(id){
+//         axios.get(`http://localhost:3000/Products/${id}`)
+//       .then(respo=>{
+//        this.prodect= respo.data
+//        this.add_things(this.prodect)
+      
+//       })  
+//       .catch(error=>{
+//         console.log(error);
+//       })
+//     },
+//     add_things(prodect){
+//         this.things.push(prodect)
+//         console.log(this.things);
+//     },
+// deleteRow(){
+//     this.things.splice(0,1);
+//     this.qutity=0;
+//     console.log(this.things);
+// },
